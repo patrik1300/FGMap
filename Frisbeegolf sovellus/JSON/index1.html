@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FG-MAP</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>FG-Map</h1>
+</header>
+<nav>
+    <ul id="main-menu">
+        <li><a href="">Tekstiä</a></li>
+        <li><a href="">Tekstiä</a></li>
+        <li><a href="">Tekstiä</a></li>
+    </ul>
+</nav>
+<div id="map"></div>
+
+<main>
+    <article>
+        <section id="info">
+            <h3 id="nimi"></h3>
+            <h4 id="osoite"></h4>
+            <p id="arvostelu"></p>
+            <a id="lisätiedot">Lisätiedot radasta</a>
+            <div id="navigoi">
+                <a href ="">Navigoi</a>
+            </div>
+            <button id="omaSijainti">Oma sijainti</button>
+            <input id="hakukentta" placeholder="Kirjoita kaupunki">
+            <button id="nappi">Hae</button>
+            <button id="poista">poistamarkerit</button>
+        </section>
+        <img id="rataKuva">
+        <section id="hsl">
+            <h3>HSL</h3>
+        </section>
+        <section id="radat">
+            <ul>Radat lähellä sijaintia: </ul>
+        </section>
+    </article>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+<script type="text/javascript" src="JSON/radat.js"></script>
+<script src="js/main_fg.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+}
+#artikkeli{
+    display: flex;
+    flex-wrap: wrap;
+}
+#map {
+    width: 54%;
+    padding-top: 0px;
+    height: 506px;
+    margin: auto;
+    box-shadow: 6px 11px 16px grey;
+}
+#tulosta {
+    margin: 0px;
+    width: auto;
+    text-align: center;
+}
+#mapcard {
+    margin: auto;
+    position: relative;
+}
+
+#main-menu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #4C653E;
+    font-size: inherit;
+    font-family: Merriweather-Black;
+}
+
+
+#main-menu li {
+    display: block;
+    margin: 6px;
+    width: 80px;
+}
+
+
+#main-menu a {
+    padding-right: 22px;
+    margin: 12px;
+    text-decoration: none;
+    padding-left: 22px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    color: #181F1C;
+    background: #FCFAFA;
+    font-family: Merriweather-Black;
+}
+iframe, #map {
+    border-radius: 20px;
+}
+
+#main-menu a:hover {
+    color: #274029;
+    background: #87A878;
+}
+
+header{
+
+    background-color: #304026;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 19px;
+    padding: 16px;
+
+}
+h1 {
+    margin: 0px;
+}
+
+#Video {
+    text-align: center;
+    width: auto;
+
+}
+
+#luojat {
+    display: flex;
+    text-align: center;
+}
+.A{box-shadow: 6px 11px 16px grey;}
+
+.profpic {
+    width: auto;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FG-MAP</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+    <h1 id="otsikko">FG-Map</h1>
+</header>
+
+<main>
+    <section id="hakusection">
+        <button id="omaSijainti">Oma sijainti</button>
+        <input id="hakukentta" placeholder="Kirjoita kaupunki">
+        <button id="nappi">Hae</button>
+    </section>
+    <article id="artikkeli">
+        <div id="map"></div>
+        <section id="mapcard">
+            <figure id="mapcardfig">
+                <img id="frisbee" src="Kuvat/fg-map_logo1.png" alt="frisbee">
+            </figure>
+            <div id="tietokentta">
+                <h3 id="nimi"></h3>
+                <p id="osoite"></p>
+                <p id="arv"></p>
+                <div>
+                    <p id="default">Hae ratoja ja paina kartassa olevaa merkkiä saadaksesi tietoja radasta.</p>
+                </div>
+                <figure id="pistefig">
+                    <img id="pisteet">
+                </figure>
+                <div id="lisätiedot">
+                    <a id="infoLinkki"></a>
+                </div>
+                <section id="ohje">
+                    <p>klikkaamalla <img src="Kuvat/navi.png" alt="navigointi kuva"> pääset reittiasetuksiin.</p>
+                </section>
+            </div>
+
+        </section>
+    </article>
+    <article id="Video">
+        <section id="videosektio">
+            <figure id="videofig">
+                <iframe width="876" height="500" src="https://www.youtube.com/embed/Xq6Cu-X_Zjs" allowfullscreen="">
+                </iframe>
+                <figcaption id="videocaption">Esittelyvideo</figcaption>
+            </figure>
+        </section>
+    </article>
+    <section>
+        <h1 id="luojaotsikko">Tämän web-sovelluksen kehittäjät</h1>
+    </section>
+    <article id="luojat">
+        <section>
+            <figure class="A">
+                <img class="profpic" src="Kuvat/Ramiz_kuva.jpg" alt="Ramiz">
+                <figcaption class="Acaption">Ramiz</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <figure class="A">
+                <img class="profpic" src="Kuvat/Patrik_kuva.jpg" alt="Patrik">
+                <figcaption class="Acaption">Patrik</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <figure class="A">
+                <img class="profpic" src="Kuvat/Jekku_kuva" alt="jesperi">
+                <figcaption class="Acaption">Jesperi</figcaption>
+            </figure>
+        </section>
+    </article>
+    <section id="heittosection">
+        <h3>Yhdistelmäkuva</h3>
+        <figure id="heitto">
+            <img id="heittokuva" src="Kuvat/heittokuva.jpg" alt="heittokuva">
+        </figure>
+    </section>
+    <div id="bottom"></div>
+
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+<script src="js/main_fg.js"></script>
+</body>
+</html>

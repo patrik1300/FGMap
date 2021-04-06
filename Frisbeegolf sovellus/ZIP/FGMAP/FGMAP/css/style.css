@@ -1,0 +1,472 @@
+@font-face{
+    src:url(fonts/MerriweatherSans-LightItalic.ttf);
+    font-family: hakuken;
+}
+@font-face{
+    src:url(fonts/MerriweatherSans-Italic.ttf);
+    font-family: merriw;
+}
+@font-face{
+    src:url(fonts/ArchitectsDaughter-Regular.ttf);
+    font-family: teki;
+}
+
+@font-face {
+    src: url(fonts/PlayfairDisplay-Italic.ttf);
+    font-family: infocard;
+}
+
+    header {
+        flex-wrap: wrap;
+        background-color: #304026;
+        color: #FFFFFF;
+        font-size: 8px;
+        padding: 0px;
+        display: flex;
+        height: 50px;
+    }
+    #otsikko{
+        margin:auto;
+        font-family: infocard, sans-serif;
+        font-size: 30px;
+    }
+
+    #hakusection {
+        width: 55%;
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        justify-content: center;
+        height: 40px;
+    }
+
+    #nappi:hover, #omaSijainti:hover {
+        background-color: #EC9A29;
+    }
+    #hakukentta:hover {
+        border-color: #EC9A29;
+    }
+    #logo {
+        width: 62%;
+        text-align: center;
+        margin: auto;
+    }
+    #otsikkofig {
+
+    }
+
+    #nappi {
+        padding-right: 20px;
+        border-radius: 0 48px 48px 0;
+        font-family: merriw, sans-serif;
+        width: 17%;
+    }
+    #omaSijainti {
+        margin-right: 15px;
+        border-radius: 48px 48px 48px 48px;
+        font-family: merriw, sans-serif;
+        width: 25%;
+    }
+    #hakukentta {
+        padding: 17px;
+        padding-right: 120px;
+        border-radius: 48px 0 0 48px;
+        width: 40rem;
+        font-family: merriw, sans-serif;
+    }
+
+    #artikkeli {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #map {
+        border-bottom-left-radius: 25px;
+        border-top-left-radius: 25px;
+        width: 60%;
+        max-width: 1000px;
+        padding-top: 0px;
+        height: 650px;
+        margin: auto;
+        box-shadow: 0px 0px 20px 6px rgb(149 149 149);
+        margin-right: 0;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    #tulosta {
+        margin: 0px;
+        width: auto;
+        text-align: center;
+    }
+
+    #mapcard {
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 25px;
+        flex-direction: column;
+        margin: auto;
+        margin-left: 0px;
+        position: relative;
+        display: flex;
+        box-shadow: 0px 0px 20px 6px rgb(149 149 149);
+        background: #FCFAFA;
+        font-family: "Roboto Light",sans-serif;
+        text-align: center;
+        font-size: 15px;
+        height: 650px;
+        width: 280px;
+    }
+
+    #mapcardfig {
+        height: 30%;
+    }
+
+    #frisbee {
+        grid-area: image;
+        background-size: cover;
+        width: 220px;
+        }
+
+    #tietokentta {
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        font-family: infocard, sans-serif;
+    }
+
+    #pisteet {
+        margin: auto;
+        margin-bottom: 11%;
+        width: 89px;
+    }
+
+    #ulRadat {
+        padding-inline-start: 0px;
+    }
+
+    h1 {
+        margin: 0px;
+    }
+
+    #Radat {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    #Video {
+        text-align: center;
+        width: auto;
+        background-color: #4C653E;
+        padding-bottom: 6rem;
+        padding-top: 6rem;
+        box-shadow: 0 28px 200px rgb(0 0 0) inset;
+    }
+
+    #videofig {
+        box-shadow: 0 20px 44px -20px rgb(0 0 0);
+        width: fit-content;
+        margin: auto;
+        background-color: #FFFFFF;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    #videocaption {
+        padding-bottom: 22px;
+        padding-top: 17px;
+        font-size: 1.5rem;
+        background-color: #FCFAFA;
+        font-family: infocard, sans-serif;
+        font-weight: bold;
+    }
+    iframe {
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    iframe:hover {
+        opacity: 85%;
+    }
+    #luojat {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    #luojaotsikko {
+        margin-top: 3rem;
+        margin-bottom: 0px;
+        text-align: center;
+        font-family: infocard, sans-serif;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .A:hover {
+        transform: scale(1.15);
+        box-shadow: 0 20px 44px -20px rgb(0 0 0);
+    }
+
+    .A {
+        box-shadow: 0 20px 44px -20px rgb(0 0 0);
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+
+    .Acaption {
+        padding-bottom: 21px;
+        padding-top: 21px;
+        font-size: 1.5rem;
+        font-family: infocard, sans-serif;
+    }
+
+    .profpic {
+        width: auto;
+        height: 245px;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 6rem;
+        padding: 1.5rem;
+    }
+
+    #bottom {
+    padding: 1rem;
+    background-color: #304026;
+    }
+    #ohje{
+        margin:auto;
+    }
+
+    #reittiohjeet{
+        width: 100%;
+        padding: 10%;
+    }
+
+    #start, #dest {
+        padding: 5%;
+        width: 100%;
+    }
+
+
+    #infoLinkki{
+        text-decoration: none;
+        padding-block-start: 8px;
+        padding-block-end: 8px;
+        padding-inline-start: 50px;
+        padding-inline-end: 50px;
+        color: #181F1C;
+        background: #CDEAC0;
+    }
+
+    #infoLinkki:hover {
+        color: #274029;
+        background: #E6A34F;
+    }
+
+    #infoLinkki:empty
+    {
+        padding:0;
+    }
+
+    #arv{
+        margin-bottom: 2%;
+    }
+    #default{
+        padding:3%;
+    }
+
+    #heittosection {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 9rem;
+        font-family: infocard, sans-serif;
+    }
+    #heittokuva {
+        width: 842px;
+        margin: auto;
+        box-shadow: 0 20px 44px -20px rgb(0 0 0);
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+
+    #heittokuva:hover {
+        transform: scale(1.15);
+        box-shadow: 0 20px 44px -20px rgb(0 0 0);
+
+    }
+
+    #luojat {
+        margin-bottom: 100px;
+    }
+    #artikkeli {
+        margin-bottom: 3rem;
+    }
+
+    .leaflet-routing-container-hide .leaflet-routing-collapse-btn{
+
+        position: relative;
+        left: 2px;
+        top: -2px;
+        display: block;
+        width: 23px;
+        height: 23px;
+        background-image: url(navi.png);
+    }
+    .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+        background: #e6a34f;
+        color: black;
+        box-shadow: 2px 5px 14px rgba(0, 0, 0, 0.4);
+        font-family: hakuken, sans-serif;
+        font-weight: bold;
+    }
+    .leaflet-popup-content-wrapper{
+        width: 200px;
+    }
+
+
+/*----------------------------------------------------------Mobile */
+
+
+@media (max-width: 700px ) {
+    iframe {
+        width:100%;
+    }
+
+    #luojat {
+        flex-direction: column;
+
+    }
+
+    .A {
+        width: 250px;
+        margin: auto;
+        margin-top: 4rem;
+    }
+
+    .profpic {
+        width: 70%;
+        height: auto;
+    }
+
+    #mapcard {
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+        background: #FFFFFF;
+        margin-bottom: -45px;
+        font-size: 18px;
+    }
+
+    #frisbee {
+        width: 60%;
+    }
+
+    #map {
+        width: 100%;
+        height: 500px;
+        border-radius: 0;
+        margin-bottom: 0;
+        margin-top: 20px;
+        box-shadow: none;
+    }
+
+    #hakusection {
+        width: 85%;
+        display: flex;
+        margin: auto;
+        margin-top: 20px
+    }
+
+    #hakukentta {
+        width: 70%;
+        margin-right: 0;
+        padding-right: 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        font-size: 15px;
+    }
+
+    #nappi {
+        width: 25%;
+        margin-left: 0;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        font-size: 15px;
+    }
+
+    #omaSijainti {
+        width: 35%;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+
+    #heittosection {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    #heitto {
+        margin: 0;
+    }
+
+    #videofig {
+        width: 100%;
+        background: none;
+        display: table;
+    }
+
+    #videosektio {
+        width: 100%;
+        margin: auto;
+    }
+
+    #Video {
+        justify-content: center;
+    }
+
+    #videocaption {
+        display: table-caption;
+        caption-side: top;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        font-size: 1.5rem;
+        background-color: #FFFFFF;
+    }
+
+    #heittokuva {
+        width: 100%;
+        margin: 0;
+    }
+    #pisteet {
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-bottom: 5px
+    }
+    #arv {
+        margin-bottom: 0;
+    }
+    #mapcardfig {
+        margin-bottom: 0px;
+        height: fit-content;
+    }
+    #osoite {
+        margin-top: 3px;
+        margin-bottom: 0px;
+    }
+    #radat {
+        margin-top: 15px;
+    }
+    #pistefig {
+        margin: 3px;
+    }
+}
